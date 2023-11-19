@@ -2,27 +2,49 @@
 .wallet{
     display:flex;
     flex-direction: column;
-    width:50%;
-   height:100vh;
-   border:1px solid;
+    width:25%;
+    
+   gap:32px;
+   padding:100px;
+   margin:100px;
+   border:none;
+   border-radius:40px;
    font-size:32px;
-   background-color:rgb(19, 24, 24)
+   background-color:rgb(255, 255, 255);
+   justify-content: center;
+   align-items: center;
 
 }
 .name{
-  
-    padding:12px;
-    font-size:24px
-}
-.l1{
-    color:silver;
-}
-.l2{
-    color:silver;
-}
-.email{
+   background-color:black;
     padding:12px;
     font-size:24px;
+    color:white;
+    border: none;
+    border-radius:32px; 
+    width:100%;
+    height:50%;
+    font-size:40px;
+}
+.l1{
+    color:black;
+    font-size: 40px;
+    
+}
+.l2{
+    color:black;
+    font-size: 40px;
+}
+.email{
+    background-color:black;
+    padding:12px;
+    font-size:24px;
+    color:white;
+    border:none;
+    border-radius:32px;
+    width:100%;
+    height:50%;
+    font-size:40px;
 }
 .wallet-container{
     display: flex;
@@ -40,6 +62,9 @@
     gap:32px;
   
 }
-.inside button{
-    font-size:32px
+.wallet button{
+    font-size:40px;
+    padding:12px 24px;
+    border-radius:32px;
+    width:50%
 }

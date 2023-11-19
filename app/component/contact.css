@@ -10,7 +10,7 @@
     align-items: center;
     color:silver;
     font-family: puffin;
-    font-size:32px;
+    font-size:40px;
     height:20vh;
     justify-content:space-between;
 
@@ -19,6 +19,7 @@
     }
     .policy{
         color:silver;
+        text-decoration: none;
        
     }
     .policy:hover{

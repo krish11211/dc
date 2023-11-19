@@ -1,0 +1,44 @@
+.card{
+    background-color: black;
+   width:1200;
+   margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+   
+
+  
+}
+.card h1{
+    color:silver;
+    flex-basis: 20%;
+    
+    
+}
+.cardinside{
+    border: 2px solid;
+   border-radius:35px;
+    flex-basis: 22%;
+   margin:50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.cardinside:hover{
+    background-color:white;
+    cursor:pointer;
+
+}
+.cardinside:hover h1{
+    color:black;
+    
+}
+.cardinside:hover .icons{
+    color: black;
+}
+   
+.icons{
+    color:white;
+}

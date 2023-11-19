@@ -5,7 +5,7 @@ import {useState} from 'react';
 export default function Wallet(){
     const[formData,setFormData]=useState({
     name:'',
-    email:'', 
+    password:'', 
     });
     const handleChange = (e) =>{
         const{name,value}=e.target;
@@ -21,7 +21,7 @@ const handleSubmit = (e)=>{
    
    setFormData({
     name:'',
-    email:'',
+    password:'',
 });
 
 };
@@ -30,17 +30,17 @@ const handleSubmit = (e)=>{
     return(
         <div className="wallet-container" >
          <form className="wallet" onSubmit={handleSubmit}>
-            <div className='inside'>
+            
             <label className='l1'>
                 Name:
                 <input className='name' type="text" name="name" value={formData.name} onChange={handleChange} ></input>
             </label>
             <label className='l2'>
-                Email:
-                <input className='email' type="text" name="email" defaultValue={formData.email} onChange={handleChange} />
+                Password:
+                <input className='email' type="password" name="password" value={formData.password} onChange={handleChange} />
             </label>
             <button type="submit" >Submit</button>
-            </div>
+           
 
          </form>
         </div>

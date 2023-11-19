@@ -2,10 +2,11 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
-    font-size: 32px;
+    font-size: 40px;
    padding:10px;
     background-color: #000000;
     color:aliceblue;
+    height:100px
 }
 .container>div:first-child{
     display:flex;
@@ -19,7 +20,7 @@
 }
 .container-image{
     display:flex;
-    height:80px
+    height:100px
 }
 .mem{
     
@@ -48,13 +49,16 @@
 }
 .container button{
     padding:10px;
-    border-radius: 10px;
-    background-color:greenyellow;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+   
     border: none;
     cursor:pointer;
-    font-size:32px;
+    background-color:white;
+    font-size:40px;
 }
 button:hover{
-    background-color: green;
-   
+    background-color:black;
+   color:silver
 }

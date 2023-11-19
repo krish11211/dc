@@ -4,7 +4,7 @@ import Imagecard from './imagecard'
 const Bicchi = () => {
     return(
         <div className='middle'>
-            <div className="tourch">Tokyo Tourch</div>
+            <div className="tourch"><h1>Tokyo Torch</h1></div>
            <Imagecard/>
         </div>
     )
