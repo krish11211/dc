@@ -1,24 +1,27 @@
 .middle{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height:100vh;
-    background-color: black;
+    background-color: rgb(34, 29, 29);
     
 }
 .images{
     display:flex;
-    height:100vh;
+  
+   justify-content: center;
+   align-items: center;
+   size: 50px;
 }
 .tourch{
     font-family:puffin;
     font-size: 100px;
-    text-align: left;
-    padding-left: 100px;
+    
+    width:50%;
     color:silver;
    
-}a
+}
 .images img{
-    width:100%;
+    width:300%;
     max-height:100%;
 }

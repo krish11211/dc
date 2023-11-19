@@ -5,8 +5,8 @@ const Contact = () => {
     return(
         <div className='contain'>
             <div className='US'>
-                <div className='about'><FaCircle size={5} color='silver' className='circle'/>About us</div>
-                <div className='propo'><FaCircle size={5} color='silver' className='circle'/>Proposal</div>
+                <div><Link href="/about"  className='about'><FaCircle size={10} color='silver' className='circle'/>About us</Link></div>
+                <div ><Link href="/proposal" className='propo'><FaCircle size={10} color='silver' className='circle'/>Proposal</Link></div>
             </div>
             <div className='policy'>
                 <div ><Link href="policy.txt">Privaicy policy</Link></div>

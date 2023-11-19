@@ -1,17 +1,24 @@
+'use client'
 import './NavBar.css'
-
+import Link from 'next/link'
+import {useRouter} from 'next/navigation'
 const NavBar = () => {
+    const router =useRouter();
+    const navigate = (item)=>{
+        router.push(item)
+    }
+
     return(
         <div className="container">
            <div > 
-                <div className='container-image'><img src='dao.jpg'/></div>
+                <div ><Link href="/"><img src='dao.jpg' className='container-image'/></Link></div>
                 
-                <div className='mem'>About us</div>
-                <div className='pro'><div>Proposal</div></div>
+                <div ><Link href="/about" className='mem'>About us</Link></div>
+                <div><Link href="/proposal"  className='pro'>Proposal</Link></div>
                 
             </div>
             <div>
-                <button>wallet</button>
+                <button onClick={()=>navigate("/wallet")}>wallet</button>
             </div>
         </div>
     )

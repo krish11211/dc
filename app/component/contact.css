@@ -1,14 +1,8 @@
 .contact{
     display:flex;
     flex-direction: column;
-    
-    
     }
-    .US{
-        display:flex;
-        flex-direction: column;
-      
-    }
+   
     .contain{
         display:flex;
         flex-direction:row;
@@ -16,10 +10,12 @@
     align-items: center;
     color:silver;
     font-family: puffin;
-    font-size:20px;
+    font-size:32px;
     height:20vh;
-    justify-content: center;
-        gap:350px
+    justify-content:space-between;
+
+   
+        
     }
     .policy{
         color:silver;
@@ -42,6 +38,9 @@
         align-items: center;
         justify-content: center;
         float: left;
+        text-decoration: none;
+        color:silver;
+      
         
     }
     .about:hover{
@@ -53,6 +52,8 @@
         align-items: center;
         justify-content: center;
         float: left;
+        text-decoration: none;
+        color:silver;
     }
     .propo:hover{
         text-decoration: underline;
