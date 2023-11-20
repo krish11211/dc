@@ -3,12 +3,25 @@
    width:1200;
    margin:auto;
     display:flex;
+    
+
     flex-wrap: wrap;
     justify-content: space-around;
   
    
 
   
+}
+.containner{
+    background-color: black;
+    color:silver;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containner h2{
+    font-size: 80px;
 }
 .card h1{
     color:silver;
@@ -19,7 +32,7 @@
 .cardinside{
     border: 2px solid;
    border-radius:35px;
-    flex-basis: 22%;
+   padding: 20px;
    margin:50px;
    display: flex;
    flex-direction: column;

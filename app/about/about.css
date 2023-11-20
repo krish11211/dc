@@ -1,0 +1,12 @@
+.aboutp{
+   
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.aboutp h1{
+
+    font-size: 80px;
+}

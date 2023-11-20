@@ -2,7 +2,7 @@ import './imagecard.css'
 const Imagecard = () => {
     return(
         <div >
-            <img src="building.jpg" alt="city" className="image"/>
+            <img src="tokyo.jpg" alt="city" className="image"/>
         </div>
     )
     

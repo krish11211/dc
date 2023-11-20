@@ -1,9 +1,9 @@
-
+import './proposal.css'
 export default function Proposal(){
     return(
-            <div>
+            <div className="cont">
                 
-                <div>proposal</div>
+                <h1>proposal</h1>
             </div>
     )
 }
